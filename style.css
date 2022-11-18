@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gotham Bold', sans-serif;
+}
+body{
+    background-color:#191414 ;
+}
+
+.container{
+    display: flex;
+   
+}
+.main-container{
+    height: 100vh;
+    width: 87%;
+    margin-left: 250px;
+}
+
+.sidebar{
+    position: fixed;
+    width: 13%;
+    height: 100vh;
+    padding: 23px;
+    background-color: #000;
+}
+.sidebar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+}
+.horizontal-bar{
+    width: 100%;
+    height: 63px;
+    background-color:#0f0d0d ;
+}
+.title h1{
+    font-size: 23px;
+    margin-top: 16px;
+    margin-left: 23px; 
+}
+
+.logo img{
+    width: 65%;
+}
+
+.text{
+    font-size: 13px;
+    
+}
+.icon img{
+    filter: invert(100%);
+    width: 20px;
+    margin-right: 10px;
+}
+.row a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.logo{
+    margin-bottom: 25px;
+}
+.second{
+    margin-top:40px;
+}
+.box{
+    width: 180px;
+    height: 260px;
+    margin: 15px 13px;
+    padding: 15px;
+    border-radius: 9px;
+    
+}
+.box:hover{
+    background-color: #363131;
+    transition: 0.3s;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.image img{
+    width: 100%;
+    border-radius: 4px;
+}
+.box-text{
+    margin-top: 10px;
+}
+
+.box-text span{
+    font-size: 13px;
+    color: rgba(136, 136, 136, 0.979);
+}
+.box-text h5{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
